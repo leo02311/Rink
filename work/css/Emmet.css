@@ -1,0 +1,9 @@
+img {
+    width: 300px;
+}
+
+div.jumbotron {
+    background-color: #3f65d0;
+    color: white;
+    margin-top: 66px;
+}

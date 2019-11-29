@@ -1,0 +1,14 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+a.btn {
+    background-color: rgba(240, 255, 255, 0.247);
+    border-color: rgba(240, 255, 255, 0.247);
+}
+
+.jumbotron {
+    background-color: #3f65d0;
+    color: white;
+    margin-top: 30px;
+}

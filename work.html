@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/hw.css">
+    <title>首頁</title>
+</head>
+
+<body>
+    <!-- Vertical navbar -->
+    <div class="vertical-nav bg-white overflow-auto" id="sidebar">
+        <div class="py-4 px-3 mb-4 bg-light">
+            <div class="media d-flex align-items-center"><img src="./work/img/blank.jpg" alt="..." width="65" class="mr-3 rounded-circle img-thumbnail shadow-sm">
+                <div class="media-body">
+                    <h4 class="m-0">林宜楷</h4>
+                    <p class="font-weight-light text-muted mb-0">網頁開發者</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">頁面</p>
+        <ul class="nav flex-column bg-white mb-0">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-dark font-italic bg-light">
+                    <i class="fa fa-th-large mr-3 text-primary fa-fw"></i> 首頁
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="work.html" class="nav-link text-dark font-italic bg-light">
+                    <i class="fa fa-cubes mr-3 text-primary fa-fw"></i> 作品集
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-italic">
+                    <i class="fas fa-heart mr-3 text-primary fa-fw"></i> 興趣
+                </a>
+            </li>
+            <li>
+                <button type="button" class="btn btn-white" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                        <i class="fas fa-address-card mr-3 text-primary fa-fw"></i><a class="text-dark font-italic">小檔案</a>
+                </button>
+                <div class="collapse" id="collapse">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">我的名字</th>
+                                <th scope="col">林宜楷<img src="..." alt=""></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">就學經歷</th>
+                                <td>臺大中文系</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">聯絡信箱</th>
+                                <td>b07101044@ntu.edu.tw</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">興趣</th>
+                                <td>卡牌遊戲、遊戲實況</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">未來目標、展望</th>
+                                <td>從事電競、遊戲製作類工作</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <!-- End vertical navbar -->
+
+
+    <!-- Page content holder -->
+    <div class="page-content p-5" id="content">
+        <!-- Toggle button -->
+        <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 float-right"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">展開</small></button>
+        <!-- Demo content -->
+        <h1 class="display-1 text-white start">歡迎來到我的網頁</h1>
+        <p class="lead text-white two">了解更多請按展開!</p>
+        <div class="separator"></div>
+        <div class="row bg-white">
+            <div class="col-8">
+
+            </div>
+        </div>
+        <div class="row text-white">
+            <div class="col-lg-12">
+                <div class="bg-white p-5 rounded my-5 shadow-sm">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work/1.html" target="hw">HW1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work/3.html" target="hw">HW2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work/4.html" target="hw">HW3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work/2.html" target="hw">HW4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work/5.html" target="hw">HW5</a>
+                        </li>
+                    </ul>
+                    <iframe name="hw" height="600px" width="1350px" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-5">
+            </div>
+        </div>
+
+    </div>
+    <!-- End demo content -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./js/hw.js"></script>
+    <script src="./js/a.js"></script>
+</body>
+
+</html>
